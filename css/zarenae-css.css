@@ -5,7 +5,9 @@ html body{
 .navbar{
     background-color: black;
     color:white;
+
 }
+
 .navbar a{
     color: white;
 }
@@ -120,8 +122,8 @@ html body{
 }
 .color-box-body-talk{
     background-color: #fe9ff0;
-
 }
+
 .body-talk{
     /*padding-left: 150px;*/
     padding-top: 20px;
@@ -181,4 +183,31 @@ html body{
 .show-text{
     margin-top: 140px;
 }
+
+@media screen and (max-width:767px) {
+.index-page-video{
+        width: 315px;
+        height: 225px;
+    }
+}
+
+.music-page-video{
+    margin-top: 60px;
+}
+
+@media screen and (max-width:767px) {
+    .music-page-video{
+        width: 315px;
+        height: 225px;
+    }
+}
+
+@media (min-width:767px) and (max-width:1047px) {
+    .music-page-video{
+        margin-top: 60px;
+    }
+}
+
+
+
 
