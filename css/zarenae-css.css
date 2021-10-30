@@ -33,6 +33,16 @@ html body{
 
 }
 /*INDEX PAGE*/
+.color-box-besame{
+    background-color: #A60219;
+}
+.besame{
+    padding-top: 20px;
+    font-family: 'Charm', cursive;
+    font-size: 40px;
+}
+
+
 .color-box-dreamy{
     background-color: #a0b9cd;
 
@@ -54,15 +64,26 @@ html body{
     margin-top: 60px;
 }
 
+
+.link-tabs{
+    text-align: center;
+}
+
 @media screen and (max-width:767px) {
     .link-tabs i{
     text-align: center;
     }
 
 }
+
+
+
+
+
 @media screen and (max-width:767px) {
     .link-tabs {
-        padding-bottom: 40px; }
+        padding-bottom: 40px;
+    text-align: center;}
 }
 
     .text-box1{
@@ -87,6 +108,7 @@ html body{
     padding-top: 20px;
     color: #1d3ab7;
     font-family: 'Dancing Script', cursive;
+    font-size: 40px;
 }
 
 
