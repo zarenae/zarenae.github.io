@@ -5,6 +5,8 @@ html body{
 .navbar{
     background-color: black;
     color:white;
+    font-family: 'Playfair Display SC', serif;
+
 
 }
 
@@ -33,6 +35,14 @@ html body{
 
 }
 /*INDEX PAGE*/
+
+/* .text-box1{
+    font-family: 'Playfair Display SC', serif;
+
+} */
+/* .color-box-home{
+    margin-bottom: 2%;
+} */
 .color-box-besame{
     background-color: #A60219;
 }
@@ -42,10 +52,26 @@ html body{
     font-size: 40px;
 }
 
+.lbdt{
+    padding-top: 20px;
+    font-size: 40px;
+    color: black;
+}
 
 .color-box-dreamy{
     background-color: #a0b9cd;
 
+}
+.color-box-lbdt {
+    background-color: white;
+    color:black;
+}
+
+.link-tabs-home .fab{
+    color: black;
+}
+.link-tabs-music .fab{
+    color: white;
 }
 
 .fab{
@@ -56,9 +82,7 @@ html body{
     /*margin-bottom: 20px;*/
 
 }
-.link-tabs-home .fab{
-    color: white;
-}
+
 
 .link-tabs .fab{
     margin-top: 60px;
@@ -168,7 +192,10 @@ html body{
         margin-bottom: 40px;
 }
 
+.lbdt{
+    font-family: 'Lobster', cursive;
 
+}
 
 @media screen and (max-width:767px) {
 .color-box {
@@ -202,9 +229,14 @@ html body{
 
 /*SHOWS*/
 
-.show-text{
-    margin-top: 140px;
+.show-button button{
+    background-color: #f54293;
 }
+/* @media screen and (max-width:767px) {
+    .show-button button{
+        margin-bottom: 2%;
+    }
+    } */
 
 @media screen and (max-width:767px) {
 .index-page-video{
