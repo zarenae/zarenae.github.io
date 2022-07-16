@@ -32,6 +32,7 @@ html body{
 .footer{
     background-color: #f54293;
     text-align: end;
+    font-family: 'Playfair Display SC', serif;
 
 }
 /*INDEX PAGE*/
@@ -43,6 +44,66 @@ html body{
 /* .color-box-home{
     margin-bottom: 2%;
 } */
+/* now avaliable to stream on all platforms */
+.text-box1{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.mv-out-now-text{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* show text */
+.show-text { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+.upcoming-text {
+    font-family: 'Montserrat', sans-serif;
+}
+.comingsoon-text {
+    font-family: 'Montserrat', sans-serif;
+}
+.past-text {
+    font-family: 'Montserrat', sans-serif;
+}
+.show-date {
+    font-family: 'Montserrat', sans-serif;
+}.show-venue 
+{
+    font-family: 'Montserrat', sans-serif;
+}
+.show-button{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* song dec */
+
+.song-desc{
+    font-family: 'Montserrat', sans-serif;
+}
+/* bio texr */
+.about-zarenae-bio{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* song boxes */
+
+.you{
+    padding-top: 20px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    color:white;
+}
+
+
+.color-box-you{
+    background-color: blue;
+    color:white;
+}
+
 .color-box-besame{
     background-color: #A60219;
 }
@@ -66,8 +127,11 @@ html body{
     background-color: white;
     color:black;
 }
-
 .link-tabs-home .fab{
+    color: white;
+}
+
+.link-tabs-black .fab{
     color: black;
 }
 .link-tabs-music .fab{
@@ -219,8 +283,14 @@ html body{
 
 
 /*PHOTOS*/
+
+
 .photos-img{
     width: 100%;
+    justify-content: center;
+}
+.long-img{
+    width: 90%;
 }
 /*ABOUT*/
 .profile-image{
